@@ -5,6 +5,20 @@ import ohtu.ohtuvarasto.Varasto;
 public class Main {
 
     public static void main(String[] args) {
+        
+        if (true) {
+            if (true) {
+                if (true) {
+                    System.out.println("omena");
+                }
+            }
+        }
+        for (int i=0; i<2; i++) {
+            for (int j=0; j<2; j++) {
+                System.out.println("apple");
+            }
+        }
+            System.out.println("äpple");
 
         Varasto mehua = new Varasto(100.0);
         Varasto olutta = new Varasto(100.0, 20.2);

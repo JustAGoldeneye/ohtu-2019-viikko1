@@ -5,14 +5,6 @@ import ohtu.ohtuvarasto.Varasto;
 public class Main {
 
     public static void main(String[] args) {
-        
-        if (true) {
-            if (true) {
-                if (true) {
-                    System.out.println("omena");
-                }
-            }
-        }
 
         Varasto olutta = new Varasto(100.0, 20.2);
 
